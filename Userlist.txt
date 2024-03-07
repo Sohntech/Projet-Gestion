@@ -1,0 +1,2 @@
+Adminlog monpassadmin 1
+Studentlog monpassedu 2
