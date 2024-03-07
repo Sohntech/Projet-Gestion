@@ -1,2 +1,5 @@
-Adminlog monpassadmin 1
-Studentlog monpassedu 2
+PREM passA 1
+SEC passB 2
+TER passC 2
+CAT passD 2
+SIX passE 2

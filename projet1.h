@@ -9,10 +9,11 @@ typedef struct{
     int a;
 }Date;
 
-/*typedef struct{
+typedef struct{
     int id;
     char nom[20];
-}Classe;*/
+    
+}Classe;
 
 typedef struct{
     int id;
@@ -33,6 +34,8 @@ typedef struct{
     Presence presence;
 }Utilisateur;
 
+
+
 Utilisateur createUser();
 int controlSaisiMinMax(int min, int max, char message[]);
 Date saisirDate();
@@ -40,12 +43,12 @@ void generateCodeApprenant(int id, char *nom, char *prenom, char *code);
 void displayUser(Utilisateur);
 void connexion();
 void saveUserOnFile(Utilisateur);
-void masquer_mot_de_passe_unix(char *password, size_t max_length);
 void saisir_mot_de_passe(char *password, size_t max_length);
-
+void functionAdminList();
 void afficherMenu();
 void menuAdmin();
 void menuApprenant();
 int loginC();
+char getch();
 
 #endif
