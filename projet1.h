@@ -35,20 +35,14 @@ typedef struct{
 }Utilisateur;
 
 
-
-Utilisateur createUser();
-int controlSaisiMinMax(int min, int max, char message[]);
-Date saisirDate();
-void generateCodeApprenant(int id, char *nom, char *prenom, char *code);
-void displayUser(Utilisateur);
-void connexion();
-void saveUserOnFile(Utilisateur);
-void saisir_mot_de_passe(char *password, size_t max_length);
 void functionAdminList();
-void afficherMenu();
-void menuAdmin();
-void menuApprenant();
+int menuAdmin();
+int menuApprenant();
 int loginC();
 char getch();
+void marquePresenceAd();
+void marquePresenceApr();
+void generatePresenceTable();
+
 
 #endif

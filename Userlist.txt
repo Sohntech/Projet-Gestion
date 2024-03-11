@@ -1,5 +1,11 @@
-PREM passA 1
-SEC passB 2
-TER passC 2
-CAT passD 2
-SIX passE 2
+Wane adminpassword 1
+Lamine passB 2
+Astou passC 2
+Bamba passD 2
+Aly passE 2
+Marie passF 2
+Alioune passG 2
+Soda passH 2
+Saer passI 2
+Pape passJ 2
+Wahab passK 2
